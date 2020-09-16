@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+    background-color: #338866;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    min-height: 600px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+main > p{
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+header, footer {
+
+    background-color: #eeee22;
+    width: 100%;
+}
+
+header {
+    font-size: 4vw;
+    padding: 20px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    font-size: .8em;
+}
